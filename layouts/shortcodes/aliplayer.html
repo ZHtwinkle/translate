@@ -1,0 +1,19 @@
+<link rel="stylesheet" href="https://g.alicdn.com/de/prismplayer/2.9.3/skins/default/aliplayer-min.css" />
+<script type="text/javascript" charset="utf-8" src="https://g.alicdn.com/de/prismplayer/2.9.3/aliplayer-min.js"></script>
+<div  class="prism-player" id="J_prismPlayer" style="z-index: 1;margin:0 auto;"></div>
+        <script>
+            var player = new Aliplayer({
+            id: 'J_prismPlayer',
+            width: '90%',
+            autoplay: true,
+            //支持播放地址播放,此播放优先级最高
+            source : '{{ .Get "src" }}',
+             region:'cn-shanghai',//eu-central-1,ap-southeast-1
+            },function(player){
+                console.log('播放器创建好了。')
+           });
+        </script>
+
+<br>
+
+<p class="csdn-video">{{ if .Get "title" }}{{ .Get "title" }}{{ else }}视频{{end}}</p>

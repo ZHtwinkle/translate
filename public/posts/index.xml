@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>开源100问</title>
+    <link>https://codechina.gitcode.host/100-quesions/posts/</link>
+    <description>Recent content on 开源100问</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 24 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://codechina.gitcode.host/100-quesions/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>（一）什么是开源软件？</title>
+      <link>https://codechina.gitcode.host/100-quesions/posts/1/</link>
+      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://codechina.gitcode.host/100-quesions/posts/1/</guid>
+      <description>开源软件（open source software）是一种源代码可以自由获取和传播的计算机软件，在遵循其开源许可协议的前提下每个人都可对其其源代码进行使用、修改和传播。与开源相对的就是闭源，它的源代码是封闭的，只有代码拥有者才能查看和修改。</description>
+    </item>
+    
+    <item>
+      <title>（二）如何通俗的理解开源模式及其背后的逻辑？</title>
+      <link>https://codechina.gitcode.host/100-quesions/posts/2/</link>
+      <pubDate>Sun, 02 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://codechina.gitcode.host/100-quesions/posts/2/</guid>
+      <description>开源成为近20年来最具活力的技术创新模式，其经典模式是发起人（类比为“编剧”，可以是自然人，也可以是商业公司或公益基金会）在开源平台（类比为“剧场”）上发布开源项目（类比为未完成“剧目”）、汇聚创客（类比为“写手”或“群演”）、吸引用户（类比为“观众”），加速技术创新和产品传播。</description>
+    </item>
+    
+    <item>
+      <title>（三）开源跟闭源软件比较有什么优势？</title>
+      <link>https://codechina.gitcode.host/100-quesions/posts/3/</link>
+      <pubDate>Mon, 03 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://codechina.gitcode.host/100-quesions/posts/3/</guid>
+      <description>人们/公司越来越喜欢开源软件，大致出于以下几个原因。第一，开源给使用者更多的控制权。由于代码是开放的，大家可以查看每一行代码来确保软件没有做任何我们不想让它做的事情。甚至，我们还可以按照自己的需要修改代码</description>
+    </item>
+    
+    <item>
+      <title>（四）企业为什么要开源？</title>
+      <link>https://codechina.gitcode.host/100-quesions/posts/4/</link>
+      <pubDate>Tue, 04 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://codechina.gitcode.host/100-quesions/posts/4/</guid>
+      <description>企业参与开源并不能获得直接的好处，但在这个过程中，它们却可以获得人才、获得市场，从而为自己争得有利的战略地位。</description>
+    </item>
+    
+    <item>
+      <title>（五）如何从生态的视角看Windows和Linux？</title>
+      <link>https://codechina.gitcode.host/100-quesions/posts/5/</link>
+      <pubDate>Thu, 06 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://codechina.gitcode.host/100-quesions/posts/5/</guid>
+      <description>Windows从1990年代起统治全球PC市场至今，而Linux于1990年初刚刚破土。Windows是1990年代操作系统中的恐龙，而今它仅仅是操作系统生态中的一个物质。</description>
+    </item>
+    
+    <item>
+      <title>（六）开源对我国科技发展软件创新信息产业发展的意义是什么？</title>
+      <link>https://codechina.gitcode.host/100-quesions/posts/6/</link>
+      <pubDate>Mon, 24 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://codechina.gitcode.host/100-quesions/posts/6/</guid>
+      <description>对一些发展中国家，或者那些软件业欠发达国家来说，开源软件还为他们制造了后发优势，提供了追赶和超越发达国家软件业的机会。</description>
+    </item>
+    
+    <item>
+      <title>（七）什么是开源教育？</title>
+      <link>https://codechina.gitcode.host/100-quesions/posts/7/</link>
+      <pubDate>Wed, 26 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://codechina.gitcode.host/100-quesions/posts/7/</guid>
+      <description>开源教育像开源软件一样，公开的、共享的资源可以充分激励人参与，创造价值。因此，我们可以设计“开源”的开源软件工程教材，任何人都可以参与教材的制作。</description>
+    </item>
+    
+    <item>
+      <title>（八）为什么要搞开源教育？</title>
+      <link>https://codechina.gitcode.host/100-quesions/posts/8/</link>
+      <pubDate>Fri, 28 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://codechina.gitcode.host/100-quesions/posts/8/</guid>
+      <description>学生作为软件技术的未来的主力军，应该拥抱开源文化，掌握开源社区治理方法，掌握开源软件开发基本技能，成为建设开源技术栈的主导力量。</description>
+    </item>
+    
+    <item>
+      <title>（九）中国开源发展现状如何？</title>
+      <link>https://codechina.gitcode.host/100-quesions/posts/9/</link>
+      <pubDate>Mon, 21 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://codechina.gitcode.host/100-quesions/posts/9/</guid>
+      <description>开源成为我国推动深度信息技术创新发展的基础，开源正在成为中国当代的一种创新和协作模式。</description>
+    </item>
+    
+    <item>
+      <title>（十）中国开源快速发展的原因？</title>
+      <link>https://codechina.gitcode.host/100-quesions/posts/10/</link>
+      <pubDate>Tue, 22 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://codechina.gitcode.host/100-quesions/posts/10/</guid>
+      <description>中国已成为世界最大的开源应用市场，涌现了大批超级用户，为开源技术的成熟演进做出了卓越贡献。</description>
+    </item>
+    
+    <item>
+      <title>（十一）中国开源发展面临的挑战？</title>
+      <link>https://codechina.gitcode.host/100-quesions/posts/11/</link>
+      <pubDate>Thu, 24 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://codechina.gitcode.host/100-quesions/posts/11/</guid>
+      <description>开源软件在给全世界的开发者和用户带来便利的同时，也带来了包含技术风险、法律风险和供应链风险在内的三个方面的挑战。</description>
+    </item>
+    
+  </channel>
+</rss>
