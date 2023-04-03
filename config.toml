@@ -1,0 +1,59 @@
+baseURL = "https://gitcode.gitcode.host/docs-cn/trans_cn"
+languageCode = "zh-cn"
+title = "开源翻译项目"
+theme = ["anatole"]
+author = "CSDN"
+
+
+[params]
+title = "Gitcode英文项目翻译"
+contentratio = 0.618
+readMore = false
+description = """
+<hr>
+<span style="line-height:3em;"> 开源翻译项目汇总 </span>
+聚焦开源理念、核心概念和发展态势
+"""
+profilePicture = "images/gitcode.png"
+copyright = "2022-2023"
+keywords = ""
+favicon = "favicons/"
+# example ["css/custom.css"]
+customCss = ["css/post.css"]
+# example ["js/custom.js"]
+# customJs = ["js/aliplayer-min.js"] 
+mainSections = ["posts"]
+images = ["images/site-feature-image.png"]
+doNotLoadAnimations = false
+enableEmoji = true
+displayMode = "light"
+disableThemeSwitcher = true
+enableMediumZoom = true
+
+
+[markup]
+  defaultMarkdownHandler = "goldmark"
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[menu]
+
+  [[menu.main]]
+  name = "首页"
+  identifier = "home"
+  weight = 100
+  url = "/"
+
+  [[menu.main]]
+  name = "开源翻译项目"
+  weight = 200
+  identifier = "posts"
+  url = "/posts/"
+
+  [[menu.main]]
+  name = "关于我们"
+  weight = 300
+  identifier = "about"
+  url = "/about/"
+

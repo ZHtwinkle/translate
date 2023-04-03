@@ -1,0 +1,92 @@
+.post .post-title h3 {
+    line-height: 1.5em !important;
+    padding-bottom: 30px;
+}
+
+.page-top .nav {
+    list-style: none;
+    padding: 10px 15px;
+    float: left;
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+    width: calc(100% - 30px);
+}
+
+@media screen and (max-width: 960px) {
+    .page-top #navMenu {
+        display: none;
+    }
+    .page-top #navMenu.is-active {
+        display: block;
+    }
+    .sidebar .logo-title .title img {
+        /* width: 50px; */
+        height: 50px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .list-with-title .listing .listing-post .post-time {
+        display:none !important;
+    }
+    .sidebar .logo-title .title h3 {
+        font-size: 20x;
+        display: inline-block;
+    }
+    .sidebar .logo-title .title a {
+        font-size: 20px;
+    }
+    .sidebar .logo-title {
+        padding-top: 70px;
+    }
+    .content {
+        margin-top: 140px;
+    }
+    .sidebar .logo-title .description {
+        display: none !important;
+    }
+    .list-with-title .listing-title {
+        display: none !important;
+    }
+}
+
+p {
+    line-height: 2em !important;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    margin: 0 1em 0.5em 1em !important;
+}
+
+.theme-switch-item {
+    margin-top: -5px !important;
+    font-weight: 600 !important;
+    font-size: 20px !important;
+}
+
+.list-with-title .listing .listing-post a {
+    color: #333333;
+    width: 100%;
+    font-size: 16px;
+    padding: 6px 0 ;
+    display: inline-block;
+}
+
+.list-with-title .listing .listing-post .post-time {
+    float: right;
+    display: inline-block;
+    max-width: 10%;
+    text-align: right;
+    color: #666666;
+}
+
+.csdn-video {
+    text-align: center;
+    font-size: 14px !important;
+    display: block;
+    padding: 0 0 1em 0 ;
+    color: #666666;
+}
+
+.sidebar .logo-title .title img {
+    border-radius: 0 !important;
+}

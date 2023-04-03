@@ -1,0 +1,21 @@
+{{ define "main" }}
+    <div class="archive {{ with .Site.Params.doNotLoadAnimations }} . {{ else }} animated fadeInDown {{ end }}">
+        <ul class="list-with-title">
+            <div class="listing-title" style="line-height: 1.5em!important;padding-bottom: 30px;color:#464646;font-size:22px;"> 项目列表 </div>
+            {{ range .Data.Pages.GroupByDate "2006" }}
+                {{ range .Pages.ByWeight }}
+                    <ul class="listing">
+                        <div class="listing-item">
+                            <div class="listing-post"><a href="{{ .RelPermalink }}" title="{{ .Title }}">{{ .Title }}</a>
+                                <!-- <div class="post-time"><span class="date">{{ if isset .Site.Params "listdateformat" }} 
+                                                                            {{ .Date.Format .Site.Params.listDateFormat }}
+                                                                            {{ else }} {{.Date.Format "2006-1-02"}} 
+                                                                            {{ end }}</span></div> -->
+                            </div>
+                        </div>
+                    </ul>
+                {{ end }}
+            {{ end }}
+        </ul>
+    </div>
+{{ end }}
